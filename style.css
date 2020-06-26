@@ -1,5 +1,6 @@
 body{
     background-color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .container{
     margin-top: 0px;
@@ -19,7 +20,7 @@ body{
     height: 523px;
     margin-bottom: 30px;
     width: 467px;
-    background-color:wheat;
+    background-color:rgb(4, 115, 143);
     border-radius: 20px;
 }
 button{
@@ -31,10 +32,15 @@ button{
     width: 111px;
     background-color: lightseagreen;
 }
+button:hover{
+    background-color: rgb(70, 124, 121);
+}
 input{
     height: 54px;
     width: 440px;
     margin-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: blanchedalmond;
     margin-bottom: 10px;
     border-radius: 20px;
     font-size: 40px;
