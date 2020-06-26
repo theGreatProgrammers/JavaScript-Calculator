@@ -1,9 +1,11 @@
 body{
-    background: url('bg.jpg');
-    height: 100%;
-    width: 100%;
+    background-color: black;
 }
 .container{
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    background-image: url('bg.jpg');
     text-align: center;
     /* border: 2px solid red;
     display: inline-block;
@@ -14,8 +16,9 @@ body{
     display: inline-block;
     border: 4px solid black;
     border-radius: 8px;
-    height: 431px;
-    width: 374px;
+    height: 523px;
+    margin-bottom: 30px;
+    width: 467px;
     background-color:wheat;
     border-radius: 20px;
 }
@@ -23,14 +26,14 @@ button{
     font-weight: bold;
     color: black;
     border-radius: 97px;
-    height: 65px;
+    height: 82px;
     font-size: 40px;
-    width: 89px;
+    width: 111px;
     background-color: lightseagreen;
 }
 input{
     height: 54px;
-    width: 359px;
+    width: 440px;
     margin-top: 10px;
     margin-bottom: 10px;
     border-radius: 20px;
