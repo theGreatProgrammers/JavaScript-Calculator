@@ -10,13 +10,19 @@ for(item of buttons){
             screenValue += buttonText;
             screen.value = screenValue;
         }
-        else if(buttonText == 'C'){
+        else if(buttonText == 'CE'){
             screenValue = '';
+            screen.value = screenValue;
+            
+        }
+        else if(buttonText == 'C'){
+            screenValue = screen.value.toString().slice(0, -1);
             screen.value = screenValue;
             
         }
         else if(buttonText == '='){
             screen.value = eval(screenValue);
+            screenValue = screen.value;
         }
         else{
             screenValue += buttonText;
