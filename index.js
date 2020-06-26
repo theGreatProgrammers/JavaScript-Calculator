@@ -10,6 +10,21 @@ for(item of buttons){
             screenValue += buttonText;
             screen.value = screenValue;
         }
+        else if(buttonText == 'sin'){
+            buttonText = 'Math.sin';
+            screenValue += buttonText;
+            screen.value = screenValue;
+        }
+        else if(buttonText == 'cos'){
+            buttonText = 'Math.cos';
+            screenValue += buttonText;
+            screen.value = screenValue;
+        }
+        else if(buttonText == 'tan'){
+            buttonText = 'Math.tan';
+            screenValue += buttonText;
+            screen.value = screenValue;
+        }
         else if(buttonText == 'CE'){
             screenValue = '';
             screen.value = screenValue;
