@@ -1,0 +1,12 @@
+body{
+    background-color: black; 
+}
+.container h1{
+    color: wheat;
+    text-align: center;
+}
+
+.container{
+    background: none;
+    
+}

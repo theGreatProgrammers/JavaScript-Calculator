@@ -6,12 +6,9 @@ body{
     margin-top: 0px;
     margin-left: 0px;
     margin-right: 0px;
-    background-image: url('bg.jpg');
+    background: url('bg.jpg') no-repeat center center/cover;
     text-align: center;
-    /* border: 2px solid red;
-    display: inline-block;
-    align-items: center; */
-}
+    }
 .calculator{
     align-items: center;
     display: inline-block;

@@ -18,6 +18,10 @@ for (item of buttons) {
             screen.value = Math.cos(screenValue);
             screenValue = screen.value;
         }
+        else if (buttonText == 'cos') {
+            screen.value = Math.cos(screenValue);
+            screenValue = screen.value;
+        }
         else if (buttonText == 'tan') {
             screen.value = Math.tan(screenValue);
             screenValue = screen.value;
@@ -38,27 +42,33 @@ for (item of buttons) {
 
             let number = 1;
             if (screen.value === 0) {
-              screen.value = '1';
+                screen.value = '1';
             } else if (screen.value < 0) {
-              screen.value = NaN;
+                screen.value = NaN;
             } else {
-              let number = 1;
-              for (let i = screen.value; i > 0; i--) {
-                number *= i;
-              }
-              screen.value = number;
-              screenValue = screen.value; 
+                let number = 1;
+                for (let i = screen.value; i > 0; i--) {
+                    number *= i;
+                }
+                screen.value = number;
+                screenValue = screen.value;
             }
-    
-          }
+
+        }
         else if (buttonText == 'CE') {
             screenValue = '';
             screen.value = screenValue;
 
         }
         else if (buttonText == 'π') {
-            screenValue = screenValue * Math.PI;
-            screen.value = screenValue;
+            if ((screenValue * Math.PI) != 0) {
+                screenValue = screenValue * Math.PI;
+                screen.value = screenValue;
+            }
+            else {
+                screen.value = Math.PI;
+                screenValue = screen.value;
+            }
 
         }
         else if (buttonText == 'C') {
