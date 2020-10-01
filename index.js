@@ -1,10 +1,9 @@
 let screen = document.getElementById('screen');
 buttons = document.querySelectorAll('button');
-let screenValue = '';
+let screenValue = "";
 for (item of buttons) {
     item.addEventListener('click', (event) => {
         buttonText = event.target.innerText;
-        // console.log(buttonText);
         if (buttonText == 'x') {
             buttonText = '*';
             screenValue += buttonText;
@@ -55,7 +54,7 @@ for (item of buttons) {
             }
 
         }
-        else if (buttonText == 'CE') {
+        else if (buttonText == 'AC') {
             screenValue = '';
             screen.value = screenValue;
 
@@ -71,7 +70,7 @@ for (item of buttons) {
             }
 
         }
-        else if (buttonText == 'C') {
+        else if (buttonText == 'DEL') {
             screenValue = screen.value.toString().slice(0, -1);
             screen.value = screenValue;
 

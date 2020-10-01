@@ -34,10 +34,10 @@ button{
     margin: 2px;
     outline: none;
     width: 109px;
-    background-color: lightseagreen;
+    background-color: rgb(73, 250, 241);
 }
 button:hover{
-    background-color: rgb(70, 124, 121);
+    background-color: rgb(23, 70, 67);
 }
 input{
     height: 54px;
